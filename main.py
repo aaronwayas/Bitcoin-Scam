@@ -7,9 +7,9 @@ import sys
 import ctypes
 
 # Establece el ícono del programa
-if sys.platform == 'win32':
-    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID('myappid')
-    ctypes.windll.kernel32.SetConsoleIcon(ctypes.windll.shell32.Shell_GetCachedImageIndexW('path\\to\\icon.ico', 0, 0x0000))
+#if sys.platform == 'win32':
+    #ctypes.windll.shell32.SetCurrentProcessExplicitA#ppUserModelID('myappid')
+    #ctypes.windll.kernel32.SetConsoleIcon(ctypes.win#dll.shell32.Shell_GetCachedImageIndexW('path\#\t#o\\icon.ico', 0, 0x0000))
 
 init()
 
